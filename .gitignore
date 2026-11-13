@@ -1,0 +1,52 @@
+# ============================================================
+#  Python environment
+# ============================================================
+.venv/
+__pycache__/
+*.pyc
+
+# ============================================================
+#  Dataset (too large; download separately, see README)
+# ============================================================
+Data_preprocessing/*
+!Data_preprocessing/readme.txt
+
+# ============================================================
+#  Model weights
+#  UPLOADED (through Git LFS, see .gitattributes):
+#    pretrained ACGPN networks G, G1, G2, U in checkpoints/label2city/
+#    (the _2 folder holds identical files; Git LFS stores them only once)
+#  NOT uploaded: every other .pth file, e.g. the VGG-19 loss network
+#    (public download, see README)
+# ============================================================
+*.pth
+!ACGPN_inference/checkpoints/label2city/latest_net_*.pth
+!ACGPN_inference_2/checkpoints/label2city/latest_net_*.pth
+
+# ============================================================
+#  Our own training run (stopped at iteration 670), not uploaded
+# ============================================================
+ACGPN_train/checkpoints/
+ACGPN_train_2/checkpoints/
+ACGPN_train/sample/
+ACGPN_train_2/sample/
+ACGPN_train/runs/
+ACGPN_train_2/runs/
+*.log
+
+# ============================================================
+#  Generated inference outputs (thousands of images)
+#  The 3 hand-picked examples in ACGPN_inference/good_cases/ ARE uploaded.
+# ============================================================
+ACGPN_inference*/sample*/
+ACGPN_inference*/single_test/
+ACGPN_inference*/runs*/
+ACGPN_inference*/compare_side_by_side/
+
+# ============================================================
+#  Documents, presentation material, editor settings
+# ============================================================
+*.pdf
+*.docx
+images/
+.idea/

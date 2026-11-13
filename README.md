@@ -2,7 +2,7 @@
 
 **CS787 · Generative Artificial Intelligence — course project**
 
-Vineet Nagrale (231158) · Jaiveer Sabharwal (230495) · Ayush Singh Sanjay Kumar (231010) · Dishank Kumawat (230377) · Prateek Raj (230079)
+Vineet Nagrale (231158) · Jaiveer Sabharwal (230495) · Ayush Singh Sanjay Kumar (231010) · Dishank Kumawat (230377) · Prateek Raj (230779)
 
 Given a photo of a person and a photo of a garment, the model generates a new, realistic photo of that person wearing that garment. This repository implements the **ACGPN** architecture (*Adaptive Content Generating and Preserving Network*, Yang et al., CVPR 2020) on the VITON benchmark, ported to a current PyTorch stack, with a full evaluation pipeline.
 

@@ -43,6 +43,10 @@ ACGPN_inference*/single_test/
 ACGPN_inference*/runs*/
 ACGPN_inference*/compare_side_by_side/
 
+# Try-on on your own photos (tools/try_on.py): working files and results
+my_tryon_work/
+my_results/
+
 # ============================================================
 #  Documents, presentation material, editor settings
 # ============================================================
